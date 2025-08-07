@@ -1,0 +1,57 @@
+.cart-widget {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.cart-widget:hover {
+  transform: scale(1.1);
+}
+
+.cart-icon {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.cart-count {
+  background-color: #61dafb;
+  color: #333;
+  border-radius: 50%;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.8rem;
+}
+
+.logo {
+    width: 20rem; 
+    padding-left: auto;
+}
+
+.navbar {
+    background-color: #FFF2E0;
+    padding: 2rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 10rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 2.8rem;
+  font-family: "Photograph Signature", sans-serif;
+  font-weight: 700;
+}
+
+.navbar-links a {
+  color: #A2AADB;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.navbar-links a:hover {
+  color: #61fb8f;
+}

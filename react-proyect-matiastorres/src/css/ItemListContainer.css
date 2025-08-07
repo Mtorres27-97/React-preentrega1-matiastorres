@@ -1,0 +1,11 @@
+.item-list-container {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+.greeting-message {
+  color: #333;
+  text-align: center;
+  margin: 0;
+}
