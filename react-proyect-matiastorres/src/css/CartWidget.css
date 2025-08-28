@@ -3,6 +3,7 @@
   align-items: center;
   cursor: pointer;
   transition: transform 0.2s;
+  margin-right: 30px;
 }
 .cart-widget:hover {
   transform: scale(1.1);

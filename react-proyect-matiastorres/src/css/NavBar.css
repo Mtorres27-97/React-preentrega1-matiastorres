@@ -24,7 +24,7 @@
 
 .logo {
     width: 20rem; 
-    padding-left: auto;
+    margin-left: 0%;
 }
 
 .navbar {
@@ -40,18 +40,18 @@
   display: flex;
   gap: 10rem;
   list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: 2.8rem;
-  font-family: "Photograph Signature", sans-serif;
-  font-weight: 700;
+  margin-left: 6rem;
+  font-weight: 600;
+  font-family: "Bungee Shade", sans-serif;
+  font-size: 1.5rem;
+  
 }
 
 .navbar-links a {
-  color: #A2AADB;
+  color: #6a76ca;
   text-decoration: none;
   transition: color 0.3s;
 }
 .navbar-links a:hover {
-  color: #61fb8f;
+  color: #200957;
 }
